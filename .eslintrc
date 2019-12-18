@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "tsconfigRootDir": ".",
+    "createDefaultProgram": true,
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "eslint:recommended",
+    "@nuxtjs/eslint-config-typescript",
+    "prettier",
+    "prettier/vue",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "prettier"],
+  // add your custom rules here
+  "rules": {
+    "semi": "error",
+    "vue/html-closing-bracket-newline": "off",
+    "no-console": "error",
+    "no-debugger": "error",
+    "space-before-function-paren": 0
+  }
+}
