@@ -10,17 +10,11 @@
     "createDefaultProgram": true,
     "project": "./tsconfig.json"
   },
-  "extends": [
-    "eslint:recommended",
-    "@nuxtjs/eslint-config-typescript",
-    "prettier",
-    "prettier/vue",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["@nuxtjs/eslint-config-typescript", "plugin/prettier"],
   "plugins": ["@typescript-eslint", "prettier"],
   // add your custom rules here
   "rules": {
-    "semi": "error",
+    "semi": ["error", "always"],
     "vue/html-closing-bracket-newline": "off",
     "no-console": "error",
     "no-debugger": "error",

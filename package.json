@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
-    "@types/node": "12.12.20",
+    "@types/node": "12.12.21",
     "nuxt": "^2.0.0",
     "vue-property-decorator": "^8.3.0"
   },
